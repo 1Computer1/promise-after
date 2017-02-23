@@ -18,7 +18,7 @@ module.exports = {
 		if (typeof callsometimes !== 'function') throw new TypeError('\'callsometimes\' has to be a function.');
 
 		if (Math.random() < 1 / 3) return;
-		if (Math.random() > 0.5) return module.exports.after(promise, callsometimes);
+		if (Math.random() >= 0.5) return module.exports.after(promise, callsometimes);
 		return module.exports.before(promise, callsometimes);
 	}
 }
