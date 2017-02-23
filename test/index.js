@@ -19,3 +19,13 @@ const anotherPromise = new Promise(() => {
 beforeafter.before(anotherPromise, () => {
 	console.log('This needs to happen before my promise! It is very important.');
 });
+
+const againAnotherPromise = new Promise(() => {
+	setTimeout(() => {
+		console.log("Hello, world, sometimes.");
+	}, 5000);
+});
+
+beforeafter.sometimes(againAnotherPromise, () => {
+	console.log('This runs sometimes, before or after.');
+});
