@@ -44,3 +44,4 @@ beforeafter.sometimes(againAnotherPromise, () => {
 ## Credits
 * [vzwGrey](https://www.github.com/vzwGrey)
 * [gloss-water](https://www.github.com/gloss-water)
+* [1Computer1](https://github.com/1Computer1)
