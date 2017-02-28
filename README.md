@@ -1,7 +1,7 @@
 # nodejs-promise-after
 
 ## Installation
-To install this amazing module just run the following:
+To install this amazing¹ module just run the following:
 ```
 npm install --save vzwGrey/nodejs-promise-after
 ```
@@ -34,3 +34,6 @@ beforeafter.before(anotherPromise, () => {
 ## Credits
 * [vzwGrey](https://www.github.com/vzwGrey)
 * [gloss-water](https://www.github.com/gloss-water)
+
+---
+¹: Please not that this package is a joke. Do not actually use it. Thank you
